@@ -1,0 +1,99 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #000; /* Black background */
+  color: #ffa500; /* Orange text */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #111; /* Slightly lighter black */
+  color: #ffa500; /* Orange text */
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Video Container */
+#video-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #111; /* Slightly lighter black */
+}
+
+#webcam {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Controls Section */
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #222; /* Dark black */
+  padding: 10px;
+}
+
+#controls button {
+  background-color: #ffa500;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#controls button:hover {
+  background-color: #ffcc66;
+}
+
+/* Chat Container */
+#chat-container {
+  width: 80%;
+  padding: 20px; /* Increased padding */
+  background-color: #111; /* Slightly lighter black */
+  color: #ffa500; /* Orange text */
+  text-align: center;
+  min-height: 80px; /* Added minimum height */
+}
+
+#chat-container h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+#chat-response {
+  font-size: 16px;
+  word-wrap: break-word;
+}
