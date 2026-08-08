@@ -2,6 +2,8 @@
 
 **MoodMap** is a **multimodal AI system** that gives large language models (LLMs) the ability to **see, hear, and feel human emotion**. By combining facial expression recognition, voice tone analysis, and natural language understanding, MoodMap creates a deeply empathetic experience—transforming static chatbots into emotionally-aware digital companions.
 
+https://youtu.be/HFfQ9Y2GsL4?si=6bOaWIlWbXMOjfCx
+
 It senses how you're feeling in the moment, processes both your **voice and facial cues**, and responds with human-like empathy through a powerful LLM and realistic text-to-speech.
 
 ## 🧠 Features
